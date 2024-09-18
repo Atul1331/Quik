@@ -29,14 +29,14 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section className="w-full mx-auto py-12">
+    <section className="py-12">
         <div className="w-[90%] mx-auto">
-            <div className="container px-4 md:px-6">
+            
                 <div className="text-center mb-10">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900">More than just a tool</h2>
-                <p className="mt-2 text-xl text-gray-600">Explore what else we can do for you</p>
+                <h2 className=" text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900">More than just a tool</h2>
+                <p className="mt-2 md:text-xl sm:text-lg text-sm text-gray-600">Explore what else we can do for you</p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-8">
                 {features.map((feature, index) => (
                     <div key={index} className="flex flex-col items-center text-center p-6 bg-white border border-gray-200 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <div className={`rounded-full p-3 ${feature.color}`}>
@@ -48,7 +48,7 @@ export default function FeaturesSection() {
                 ))}
                 </div>
             </div>
-        </div>
+        
       
     </section>
   )

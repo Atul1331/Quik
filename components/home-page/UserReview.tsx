@@ -103,7 +103,7 @@ export default function UserReviews() {
       <div className="container mx-auto px-4">
       <div className="text-center mb-10">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900">What people tell about us</h2>
-                <p className="mt-2 text-xl text-gray-600">See what our customers have to say</p>
+                <p className="mt-2 md:text-xl sm:text-lg text-sm text-gray-600">See what our customers have to say</p>
                 </div>
         <div 
           className="flex gap-16 overflow-hidden" 
